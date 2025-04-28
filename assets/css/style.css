@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 40px;
-
+    margin-inline: 20px;
 }
 
 h1 {
@@ -175,7 +175,7 @@ thead th {
 
 .logo-js {
     width: 120px;
-    position: relative;
+    /* position: relative; */
     border-radius: 8px;
     bottom: 55px;
 }
