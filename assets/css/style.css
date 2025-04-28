@@ -38,6 +38,7 @@ h1 {
 
 h2 {
     font-size: 1.9em;
+    color: #434242;
 }
 
 .container-principal {
@@ -46,11 +47,12 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    background-color: #fff;
+    background-color: whitesmoke;
     max-width: 700px;
     padding: 40px;
     border-radius: 14px;
     min-height: 80vh;
+    box-shadow: 2px 2px 12px rgba(229, 227, 227, 0.781);
 }
 
 .delete {
