@@ -44,7 +44,7 @@ h2 {
     max-width: 700px;
     padding: 40px;
     border-radius: 14px;
-    min-height: 80vh;
+    max-height: 80vh;
     box-shadow: 2px 2px 12px rgba(229, 227, 227, 0.781);
 }
 
