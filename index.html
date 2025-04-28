@@ -9,7 +9,10 @@
     <title>Todo List</title>
 </head>
 <body>
-    <h1><span class="todo-title">To-do</span> List <span class="span-title">con JavaScript</span></h1>
+    <div class="header-page">
+        <h1><span class="todo-title">To-do</span> List</h1>
+        <img src="./assets/images/js-logo.png"  alt="Logo de JavaScript" class="logo-js">
+    </div>
     <main class="container-principal">
         <h2>Lista de Tareas</h2>
         <div class="box">
@@ -17,10 +20,10 @@
                 <input type="text" id="input-tarea" placeholder="Ingrese tarea">
                 <button id="btn-agregarTarea">Agregar Tarea</button>
             </div>
-            <table class="table" style="margin-top: 20px; width: 600px; border: 1px solid rgba(79, 68, 68, 0.528);">
+            <table class="table">
                 <thead> 
-                    <th style="text-align: start;">ID</th>
-                    <th style="text-align: start;">Tarea</th>
+                    <th>ID</th>
+                    <th>Tarea</th>
                 </thead>
                 <tbody id="tbody"></tbody>
             </table>
