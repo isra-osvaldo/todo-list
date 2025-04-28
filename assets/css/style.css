@@ -20,20 +20,13 @@ body {
 
 h1 {
     font-size: 6em;
-    color: #fff;    
+    color: #fff;  
+      
 }
 
 .todo-title {
     color: #f56856 ;
     font-weight: 800;
-}
-
-.span-title {
-    display: block;
-    font-size: 3rem;
-    font-weight: 500;
-    color: #f7e02a;
-    
 }
 
 h2 {
@@ -158,6 +151,13 @@ h2 {
 .table {
     border-radius: 8px;
     padding: 15px;
+    margin-top: 20px; 
+    width: 600px; 
+    border: 1px solid rgba(79, 68, 68, 0.528);
+}
+
+thead th {
+    text-align: start;
 }
 
 .resultados {
@@ -166,3 +166,16 @@ h2 {
     margin-top: 30px;
 }
 
+.header-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-js {
+    width: 120px;
+    position: relative;
+    border-radius: 8px;
+    bottom: 55px;
+}
